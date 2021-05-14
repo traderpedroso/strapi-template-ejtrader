@@ -89,7 +89,7 @@ async function createEntry(model, entry, files) {
   }
 }
 
-async function importsolutions() {
+async function importSolutions() {
   return solutions.map(async (solution) => {
     const [cardImage, logo] = [
       getFileData(solution.cardImage),
@@ -105,7 +105,7 @@ async function importsolutions() {
   })
 }
 
-async function importteams() {
+async function importTeams() {
   return teams.map(async (team) => {
     const image = getFileData(team.image)
 
@@ -123,7 +123,7 @@ async function importStages() {
   })
 }
 
-async function importdevs() {
+async function importDevs() {
   return devs.map((dev) => {
     return strapi.services.dev.create(dev)
   })
@@ -158,11 +158,11 @@ async function importSeedData() {
   })
 
   // Create all entries
-  await importsolutions()
-  await importdevs()
+  await importSolutions()
+  await importDevs()
   await importStages()
   await importTalks()
-  await importteams()
+  await importTeams()
   await importPages()
   await importGlobal()
 }
