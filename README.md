@@ -1,8 +1,8 @@
 ```
 # Using Yarn
-yarn create strapi-app backend --template https://github.com/ejtraderLabs/backend-strapi-template
+yarn create strapi-app backend --template https://github.com/ejtraderLabs/strapi-template-ejtrader
 
 # Or using NPM
-npx create-strapi-app backend --template https://github.com/ejtraderLabs/backend-strapi-template
+npx create-strapi-app backend --template https://github.com/ejtraderLabs/strapi-template-ejtrader
 
 ```
