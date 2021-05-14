@@ -102,9 +102,9 @@
     {
       "type": "solutions",
       "settings": {
-        "metaTitle": "Expo - StrapiConf",
+        "metaTitle": "Solutions - StrapiConf",
         "metaDescription": "Meet our awesome StrapiConf solutions! ",
-        "title": "Expo - StrapiConf",
+        "title": "Solutions - StrapiConf",
         "description": "Meet our awesome StrapiConf solutions! ",
         "metaImage": null
       }
@@ -276,22 +276,22 @@
       "tier": "gold",
       "tierRank": "6",
       "callToAction": "Try Vercel",
-      "callToActionLink": "https://vercel.com/new?utm_source=strapi&utm_medium=expo&utm_campaign=strapiconf",
+      "callToActionLink": "https://vercel.com/new?utm_source=strapi&utm_medium=Solutions&utm_campaign=strapiconf",
       "links": [
         {
           "id": 34,
           "text": "Learn Next.js",
-          "url": "https://nextjs.org/learn/basics/create-nextjs-app?utm_source=strapi&utm_medium=expo&utm_campaign=strapiconf"
+          "url": "https://nextjs.org/learn/basics/create-nextjs-app?utm_source=strapi&utm_medium=Solutions&utm_campaign=strapiconf"
         },
         {
           "id": 35,
           "text": "Analytics",
-          "url": "https://vercel.com/analytics?utm_source=strapi&utm_medium=expo&utm_campaign=strapiconf"
+          "url": "https://vercel.com/analytics?utm_source=strapi&utm_medium=Solutions&utm_campaign=strapiconf"
         },
         {
           "id": 36,
           "text": "Docs",
-          "url": "https://vercel.com/docs?utm_source=strapi&utm_medium=expo&utm_campaign=strapiconf"
+          "url": "https://vercel.com/docs?utm_source=strapi&utm_medium=Solutions&utm_campaign=strapiconf"
         }
       ],
       "logo": "./solutions-logo-Vercel.jpg",
@@ -993,7 +993,7 @@
       "companyName": "Vercel",
       "title": "Developer Relations Lead",
       "description": "\nVercel's mission is to empower front-end developers in doing their best work, at the fastest possible pace. We’re passionate about our work with that community, and we are seeking an experienced Developer Relations Leader to steward our connection to that community, grow our presence and impact, and provide a conduit for community feedback into all parts of our business.\nAs part of this challenging role, you will work closely with leaders and staff from across our whole business, including engineering, infrastructure, marketing, and business development.",
-      "link": "https://vercel.com/careers?utm_source=strapi&utm_medium=expo&utm_campaign=strapiconf ",
+      "link": "https://vercel.com/careers?utm_source=strapi&utm_medium=Solutions&utm_campaign=strapiconf ",
       "discord": null,
       "rank": "2"
     },
@@ -1002,7 +1002,7 @@
       "companyName": "Vercel",
       "title": "Field Engineer / Solution Architect ",
       "description": "\nVercel's mission is to empower front-end developers in doing their best work, at the fastest possible pace. We’re passionate about our work with that community, and we are seeking an experienced Developer Relations Leader to steward our connection to that community, grow our presence and impact, and provide a conduit for community feedback into all parts of our business.\nAs part of this challenging role, you will work closely with leaders and staff from across our whole business, including engineering, infrastructure, marketing, and business development.",
-      "link": "https://vercel.com/careers?utm_source=strapi&utm_medium=expo&utm_campaign=strapiconf ",
+      "link": "https://vercel.com/careers?utm_source=strapi&utm_medium=Solutions&utm_campaign=strapiconf ",
       "discord": null,
       "rank": "2"
     },
@@ -2177,10 +2177,10 @@
     },
     {
       "id": 15,
-      "title": "Creating a notification plugin for Expo with Strapi",
+      "title": "Creating a notification plugin for Solutions with Strapi",
       "start": "2021-04-22T18:45:00.000Z",
       "end": "2021-04-22T19:15:00.000Z",
-      "description": "In this talk, we'll look at how a simple idea, and need, can be real in few days by using Strapi to implement a notification system. We'll get into how to use Expo Notification to send notification to your mobile application (using Expo), taking a look into the plugin I built and the many Strapi features in implements, and showing you how to use it with any Strapi project.",
+      "description": "In this talk, we'll look at how a simple idea, and need, can be real in few days by using Strapi to implement a notification system. We'll get into how to use Solutions Notification to send notification to your mobile application (using Solutions), taking a look into the plugin I built and the many Strapi features in implements, and showing you how to use it with any Strapi project.",
       "link": null,
       "teams": [
         {
