@@ -123,7 +123,7 @@ async function importStages() {
   })
 }
 
-async function importDevs() {
+async function importJobs() {
   return devs.map((dev) => {
     return strapi.services.dev.create(dev)
   })
@@ -159,7 +159,7 @@ async function importSeedData() {
 
   // Create all entries
   await importSolutions()
-  await importDevs()
+  await importJobs()
   await importStages()
   await importTalks()
   await importTeams()
