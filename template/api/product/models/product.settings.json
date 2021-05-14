@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "name": "product",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "active": {
+      "type": "boolean"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "string"
+    },
+    "metadata": {
+      "type": "json"
+    },
+    "name": {
+      "type": "string"
+    },
+    "uid": {
+      "type": "string",
+      "unique": true
+    }
+  }
+}

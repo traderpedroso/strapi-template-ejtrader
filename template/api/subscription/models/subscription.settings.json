@@ -1,0 +1,59 @@
+{
+  "kind": "collectionType",
+  "collectionName": "subscriptions",
+  "info": {
+    "name": "subscription",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "cancel_at": {
+      "type": "datetime"
+    },
+    "cancel_at_period_end": {
+      "type": "boolean"
+    },
+    "canceled_at": {
+      "type": "datetime"
+    },
+    "current_period_end": {
+      "type": "datetime"
+    },
+    "current_period_start": {
+      "type": "datetime"
+    },
+    "ended_at": {
+      "type": "datetime"
+    },
+    "metadata": {
+      "type": "json"
+    },
+    "quantity": {
+      "type": "integer"
+    },
+    "trial_end": {
+      "type": "datetime"
+    },
+    "trial_start": {
+      "type": "datetime"
+    },
+    "user_id": {
+      "type": "uid"
+    },
+    "uid": {
+      "type": "string",
+      "unique": true
+    },
+    "price_id": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    }
+  }
+}
